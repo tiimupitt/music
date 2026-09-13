@@ -1,0 +1,43 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+	/* colors */
+
+	/* spacing (fibonacci) */
+	--spacing: 0.25rem;
+	--spacing-1: calc(var(--spacing) * 1);
+	--spacing-2: calc(var(--spacing) * 2);
+	--spacing-3: calc(var(--spacing) * 3);
+	--spacing-4: calc(var(--spacing) * 5);
+	--spacing-5: calc(var(--spacing) * 8);
+	--spacing-6: calc(var(--spacing) * 13);
+	--spacing-7: calc(var(--spacing) * 21);
+	--spacing-8: calc(var(--spacing) * 34);
+	--spacing-9: calc(var(--spacing) * 55);
+
+	/* container (fibonacci) */
+	--container: calc(var(--spacing) * 16);
+	--container-1: calc(var(--container) * 1);
+	--container-2: calc(var(--container) * 2);
+	--container-3: calc(var(--container) * 3);
+	--container-4: calc(var(--container) * 5);
+	--container-5: calc(var(--container) * 8);
+	--container-6: calc(var(--container) * 13);
+	--container-7: calc(var(--container) * 21);
+	--container-8: calc(var(--container) * 34);
+	--container-9: calc(var(--container) * 55);
+	
+	/* z-index */
+
+	/* styles */
+	font-size: 8px;
+	line-height: 1;
+
+	p, h1, h2, h3, h4, h5 {
+		margin: 0;
+	}
+
+	@media screen and (width >= 1300px) {
+		font-size: 10px;
+	}
+}
